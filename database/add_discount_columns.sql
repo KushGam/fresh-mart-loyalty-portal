@@ -1,0 +1,3 @@
+ALTER TABLE orders
+ADD COLUMN birthday_discount DECIMAL(10,2) DEFAULT 0.00,
+ADD COLUMN promo_discount DECIMAL(10,2) DEFAULT 0.00; 
